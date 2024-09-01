@@ -249,7 +249,7 @@ h2 {
   background-color: darkorange;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: center;
   color:darkviolet;
