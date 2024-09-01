@@ -1,0 +1,250 @@
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #000000;
+
+}
+
+.dark-theme {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.search-box {
+  position: relative;
+  justify-self: end;
+  width: 300px;
+  height: 20px;
+  background: linear-gradient(to right, lightblue, blueviolet);
+  /* Example: Red to Green gradient */
+  border-radius: 10px;
+  overflow: hidden;
+  left: 75%;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  display: flex;
+}
+
+.search-box input[type="text"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 40px;
+  color: #333;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.search-button {
+  position: relative;
+  left: 73.9%;
+  top: 2%;
+  border-radius: 5px;
+  border: none ;
+  background-color: orange !important;
+  cursor: pointer;
+  display: flex;
+  height: 30px ;
+}
+
+.sh{
+  height:40px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#image {
+  width: 20px;
+  height: 20px;
+  border: transparent;
+  position: relative;
+
+}
+
+.maria {
+  width: 300px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  display: block;
+}
+
+.maria1 {
+  width: 300px;
+  height: 170px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  object-fit: cover;
+  display: block;
+
+}
+
+.A {
+
+  display: inline-block;
+  width: 300px;
+  font-size: 20px;
+
+
+}
+
+.B {
+  color: darkred;
+  font-style: italic;
+
+}
+
+.C {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+
+.onepiece-title {
+  color: skyblue
+}
+
+.margin {
+  margin-top: 25px;
+
+}
+
+.margin2 {
+  margin-top: 25px;
+
+}
+
+.margin3 {
+  margin-top: 0px;
+
+}
+
+.text-color {
+  color: orange;
+}
+
+h1 {
+  color: purple;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  top: 10%;
+}
+
+span {
+  color: blue;
+}
+
+#icon {
+  width: 30px;
+  top: 20px;
+  cursor: pointer;
+  position: fixed;
+}
+
+#icon:hover {
+  transform: scale(1.1);
+
+}
+
+h2 {
+  text-align: center;
+  border: solid 1px;
+  border-radius: 20px;
+  background-color: darkcyan;
+  gap: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.full {
+  margin-top: 28%;
+}
+
+.demon {
+
+  margin-top: 25%;
+}
+
+.death {
+  margin-top: 50%;
+}
+
+.aot {
+  margin-top: 22%;
+}
+
+.op {
+  margin-top: 35%;
+}
+
+.hp {
+  margin-top: 61%;
+}
+
+.no8 {
+  margin-top: 55%;
+}
+
+#hbutton {
+  position: relative;
+  left: 80px;
+  top: 2px;
+  color: darkorange;
+  background: transparent;
+  border: none;
+  font-size: large;
+  border: transparent;
+  border-radius: 50px;
+}
+
+#hbutton:hover {
+  color: white;
+  background-color: darkorange;
+}
+
+#abutton {
+  position: relative;
+  left: 100px;
+  margin-top: 2%;
+  color: darkorange;
+  background: transparent;
+  border: none !important;
+  font-size: large;
+  border: transparent;
+  border-radius: 50px;
+}
+
+#abutton:hover {
+  color: white;
+  background-color: darkorange;
+}
+
+#bbutton {
+  position: relative;
+  left: 120px;
+  top: 2px;
+  color: darkorange;
+  background: transparent;
+  border: none !important;
+  font-size: large;
+
+  border: transparent;
+  border-radius: 50px;
+}
+
+#bbutton:hover {
+  color: white;
+  background-color: darkorange;
+}
